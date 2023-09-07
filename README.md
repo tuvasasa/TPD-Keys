@@ -26,6 +26,7 @@ Credits:
 CDRM-Project for creating this aplication
 
 Español
+----------------
 
 Modo de empleo:
 
