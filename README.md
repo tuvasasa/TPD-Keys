@@ -1,7 +1,13 @@
-# TPD-Keys
+# TPD-Keys v2 by tuvasasa
+Add new updates for Star+ and Directv Go Latam
+Añadido nuevas actualizaciones para Star+ y Directv Go Latam
+
 
 English:
 --------------
+It is necessary to have our own CDM, for more information, read here.
+https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio
+
 How to use:
 
 1. Create TPD-Keys folder.
@@ -27,6 +33,8 @@ CDRM-Project for creating this aplication
 
 Español
 ----------------
+Es necesario contar con nuestro propio CDM, para más información, leer aquí
+https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio
 
 Modo de empleo:
 
