@@ -1,0 +1,5 @@
+pywidevine
+requests
+httpx
+pyyaml
+beautifulsoup4
