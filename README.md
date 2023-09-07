@@ -1,5 +1,7 @@
 # TPD-Keys
 
+English:
+--------------
 How to use:
 
 1. Create TPD-Keys folder.
@@ -12,7 +14,7 @@ How to use:
 
 5. Replace MyWVD= "/PATH/TO/WVD.wvd" with the path to your .wvd on line 15 of tpd-keys.py
 
-For instance MyWVD = "C:\Users\TPD94\Desktop\AndroidDeivce.wvd" or if it is located in the same folder MyWVD = "AndroidDeivce.wvd"
+For instance MyWVD = "C:\Users\TPD94\Desktop\AndroidDevice.wvd" or if it is located in the same folder MyWVD = "AndroidDevice.wvd"
 
 6. Paste any needed headers into DRMHeaders.py
 
@@ -22,3 +24,28 @@ Make a selection
 
 Credits:
 CDRM-Project for creating this aplication
+
+Español
+
+Modo de empleo:
+
+1. Crear la carpeta TPD-Keys.
+
+2. Descargar y extraer tpd-keys.py, requirements.txt y DRMHeaders.py en el directorio TPD-Keys recién creado.
+
+3. Instalar los requisitos con pip install -r requirements.txt
+
+4. Crear un WVD con pywidevine; pywidevine create-device -k "/PATH/TO/device_private_key" -c "/PATH/TO/device_client_id_blob" -t "ANDROID" -l 3
+
+5. Sustituir MyWVD= "/PATH/TO/WVD.wvd" por la ruta a su .wvd en la línea 15 de tpd-keys.py
+
+Por ejemplo MyWVD = "C:\users\TPD94\Desktop\AndroidDeivce.wvd" o si se encuentra en la misma carpeta MyWVD = "AndroidDevice.wvd"
+
+6. Pegar las cabeceras necesarias en DRMHeaders.py
+
+7. Iniciar con python tpd-keys.py
+
+8. Hacer selección
+
+Créditos:
+CDRM-Project por crear esta aplicación
